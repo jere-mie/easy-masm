@@ -3,15 +3,17 @@
 
 ### Steps For Windows Users
 1. Clone this repo and save to your desired location:
-```git clone https://github.com/jere-mie/easy-masm```
+```
+git clone https://github.com/jere-mie/easy-masm
+```
 
 2. Edit the source.asm file as you need (it can serve as a template for each new project)
-**NOTE**: The following two lines:
+**NOTE**: The following two lines are only necessary when not using Visual Studio. If you are using Visual Studio they can be left out:
 ```
 includelib kernel32.lib
 includelib user32.lib
 ```
-are only necessary when not using Visual Studio. If you are using Visual Studio they can be left out
+
 
 3. Run your program by typing `"run source"` into cmd/powershell (you can change source to whatever your assembly file name is without the .asm extension)
 **NOTE**: if you're using powershell, type `"./run source"` into powershell instead
@@ -20,7 +22,7 @@ are only necessary when not using Visual Studio. If you are using Visual Studio 
 
 ### For Linux/MacOS Users
 1. Install Wine on your computer
-2. Run `chmod 0777 run.sh` in the terminal to make "run.sh" executable
+2. Run `chmod +x run.sh` in the terminal to make "run.sh" executable (you only need to do this once)
 3. Follow the same steps as Windows users with the following exception: when running your program in step 3, instead of running `run source`, type `./run.sh source` (the run.sh file must be used instead of the run.bat file)
 
 ### Credits
