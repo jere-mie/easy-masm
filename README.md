@@ -8,12 +8,12 @@ git clone https://github.com/jere-mie/easy-masm
 ```
 
 2. Edit the `source.asm` file in the `src` folder as you need (or it can serve as a template for each new project) \
+**NOTE**: Make sure you put all of your `.asm` files you want to run in the `src` folder. If they are not in the `src` folder they won't be run \
 **NOTE**: The following two lines are only necessary when not using Visual Studio. If you are using Visual Studio they can be left out:
 ```
 includelib kernel32.lib
 includelib user32.lib
 ```
-
 
 3. Run your program by typing `"run source"` into cmd/powershell (you can change source to whatever your assembly file name is without the .asm extension) \
 **NOTE**: if you're using powershell, type `"./run source"` into powershell instead
@@ -21,8 +21,9 @@ includelib user32.lib
 4. Delete Visual Studio and save your SSD space for osu! beatmaps ;)
 
 ### For Linux/MacOS Users
-1. Install Wine on your computer
-2. Run `chmod +x run.sh` in the terminal to make "run.sh" executable (you only need to do this once)
+1. [Install Wine](https://www.winehq.org/) on your computer. (If you're using the CS Servers at UWindsor, Wine is already installed so you can skip this step)
+2. Run `chmod +x run.sh` in the terminal to make "run.sh" executable after you clone the repository (you only need to do this once)
+    * This step may not be required. If you get a permission error when trying to run `run.sh`, then try the above step
 3. Follow the same steps as Windows users with the following exception: when running your program in step 3, instead of running `run source`, type `./run.sh source` (the run.sh file must be used instead of the run.bat file)
 
 ### FAQ/Common Errors
@@ -36,6 +37,15 @@ includelib user32.lib
     * You are probably using Linux or MacOS and don't have Wine Installed. Wine is required to run easy-masm on non-Windows machines. Be sure to install it by going [here](https://www.winehq.org/)
 * I can't clone the repository, "'mit' is not recognized as an internal or external command"
     * You may not have git installed. Either install it [here](https://git-scm.com/downloads) or download the repository as a zip
+* I'm seeing something like "source.exe not found" when trying to run
+    * Your antivirus may be deleting the executable file before you can run it. Try disabling antivirus and re-running
+* I'm getting weird 'x11' errors with wine when trying to install
+    * This may be because wine is being used for the first time, and is unrelated to eas-masm. Try stopping the process and re-running the script a couple times. This usually fixes it
+* I'm getting an error that isn't described above
+    * Reach out to me at borna113@uwindsor.ca and I can do my best to help
+
+### Contact
+If you have a question, comment, or want to contribute. Feel free to make a pull request or create an issue on this repo. You can also contact me at borna113@uwindsor.ca
 
 ### Credits
 This guide could not have been made without direct/indirect help from the following:
@@ -43,3 +53,4 @@ This guide could not have been made without direct/indirect help from the follow
 * [masm32-wine](https://github.com/olivatooo/masm32-wine) for inspiration and some source files
 * GitHub user [bachittle](https://github.com/bachittle) for figuring out how to run this on Wine
 * GitHub user [WahidBawa](https://github.com/WahidBawa) for providing me with some of these resources
+* Anyone else who Stars, Forks, or contributes to this in the future :)
