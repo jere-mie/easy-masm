@@ -27,20 +27,20 @@ includelib user32.lib
 3. Follow the same steps as Windows users with the following exception: when running your program in step 3, instead of running `run source`, type `./run.sh source` (the run.sh file must be used instead of the run.bat file)
 
 ### FAQ/Common Errors
-* "When I try to run, I get the following error: 'The term 'run' is not recognized as the name of a cmdlet...'"
+* "When I try to run, I get the following error: **'The term 'run' is not recognized as the name of a cmdlet...'"**
     * You are probably using Powershell, so try running `./run source`
-* "When I try to run, I get the following error: '. is not recognized as an internal or external command...'"
+* "When I try to run, I get the following error: **'. is not recognized as an internal or external command...'"**
     * You are probably using CMD, so try running `run source`
-* "When I try to run, I get the following error: '-bash: run: command not found' or '-bash: ./run: No such file or directory'"
+* "When I try to run, I get the following error: **'-bash: run: command not found' or '-bash: ./run: No such file or directory'"**
     * You are probably using Linux or MacOS (Bash), so try running `./run.sh source`
-* "When I try to run, I get the following error: './run.sh: line 4: wine: command not found'"
+* "When I try to run, I get the following error: **'./run.sh: line 4: wine: command not found'"**
     * You are probably using Linux or MacOS and don't have Wine Installed. Wine is required to run easy-masm on non-Windows machines. Be sure to install it by going [here](https://www.winehq.org/)
-* I can't clone the repository, "'mit' is not recognized as an internal or external command"
+* I can't clone the repository, **"'git' is not recognized as an internal or external command"**
     * You may not have git installed. Either install it [here](https://git-scm.com/downloads) or download the repository as a zip
-* I'm seeing something like "source.exe not found" when trying to run
+* I'm seeing something like **"source.exe not found"** when trying to run
     * Your antivirus may be deleting the executable file before you can run it. Try disabling antivirus and re-running
-* I'm getting weird 'x11' errors with wine when trying to install
-    * This may be because wine is being used for the first time, and is unrelated to eas-masm. Try stopping the process and re-running the script a couple times. This usually fixes it
+* I'm getting weird **'x11'** errors with wine when trying to run the command
+    * This may be because wine is being used for the first time, and is unrelated to easy-masm. Try stopping the process and re-running the script a couple times. This usually fixes it
 * I'm getting an error that isn't described above
     * Reach out to me at borna113@uwindsor.ca and I can do my best to help
 
