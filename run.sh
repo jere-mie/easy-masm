@@ -1,6 +1,6 @@
 #!/bin/bash
 cp src/$1.asm lib 
-cd assets
+cd lib 
 wine aml.exe /c /Zd /coff $1.asm 
 wine alink.exe /SUBSYSTEM:CONSOLE $1.obj 
 wine $1.exe 
