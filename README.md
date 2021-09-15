@@ -28,7 +28,8 @@ INCLUDELIB user32.lib
 1. [Install Wine](https://www.winehq.org/) on your computer. (If you're using the CS Servers at UWindsor, Wine is already installed so you can skip this step)
 2. Run `chmod +x run.sh` in the terminal to make "run.sh" executable after you clone the repository (you only need to do this once)
     * This step may not be required. If you get a permission error when trying to run `run.sh`, then try the above step
-3. Follow the same steps as Windows users with the following exception: when running your program in step 3, instead of running `run source`, type `./run.sh source` (the run.sh file must be used instead of the run.bat file)
+3. Follow the same steps as Windows users with the following exception: when running your program in step 3, instead of running `run source`, type `./run.sh source` (the run.sh file must be used instead of the run.bat file)  
+**NOTE**: if you're using the CS Servers, you **MUST** run Easy-MASM on No Machine before running it via SSH
 
 ### FAQ/Common Errors
 * "When I try to run, I get the following error: **'The term 'run' is not recognized as the name of a cmdlet...'"**
