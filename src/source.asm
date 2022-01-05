@@ -13,13 +13,17 @@ INCLUDELIB kernel32.lib
 INCLUDELIB user32.lib
 
 .data
-
+    
+    msg BYTE "Hello world!",0
 	; data declarations go here
 
 .code
 main PROC
 	
 	; code goes here
+    mov edx, OFFSET msg
+    call WriteString
+    call Crlf
 
 	call DumpRegs ; displays registers in console
 

@@ -1,5 +1,5 @@
 # Easy-MASM
-## The simplest way to assemble, link, and run masm32 files on Windows, Linux, or MacOS
+## The simplest way to assemble, link, and run masm32 files on Windows or Linux
 
 ### Introduction Video
 Check out [this video](https://youtu.be/-pYwO4sTpxI) where I quickly install easy-masm, edit a file, and run it on Windows and Linux (all in under 3 minutes)!
@@ -18,13 +18,13 @@ INCLUDELIB kernel32.lib
 INCLUDELIB user32.lib
 ```
 
-3. Run your program by typing `"run source"` into cmd/powershell (you can change source to whatever your assembly file name is without the .asm extension) \
-**NOTE**: if you're using powershell, type `"./run source"` into powershell instead \
+3. Run your program by typing `"run source"` into cmd/PowerShell (you can change source to whatever your assembly file name is without the .asm extension) \
+**NOTE**: if you're using PowerShell, type `"./run source"` into PowerShell instead \
 **NOTE**: make sure your terminal isn't in the `src` folder. If you are in the `src` folder, run `cd ..` to go back to the root of the `easy-masm` directory. (Also make sure you aren't in the `lib` folder. Similarly, run `cd ..` to go back in the correct folder).
 
 4. Delete Visual Studio and save your SSD space for osu! beatmaps ;)
 
-### For Linux/MacOS Users
+### For Linux Users
 1. [Install Wine](https://www.winehq.org/) on your computer. (If you're using the CS Servers at UWindsor, Wine is already installed so you can skip this step)
 2. Run `chmod +x run.sh` in the terminal to make "run.sh" executable after you clone the repository (you only need to do this once)
     * This step may not be required. If you get a permission error when trying to run `run.sh`, then try the above step
@@ -34,16 +34,16 @@ INCLUDELIB user32.lib
 
 ### FAQ/Common Errors
 * "When I try to run, I get the following error: **'The term 'run' is not recognized as the name of a cmdlet...'"**
-    * You are probably using Powershell, so try running `./run source`
+    * You are probably using PowerShell, so try running `./run source`
     * It is also possible you are in either the `src` folder or `lib` folder. Run `cd ..` to go back to the right folder
 * "When I try to run, I get the following error: **'. is not recognized as an internal or external command...'"**
     * You are probably using CMD, so try running `run source`
     * It is also possible you are in either the `src` folder or `lib` folder. Run `cd ..` to go back to the right folder
 * "When I try to run, I get the following error: **'-bash: run: command not found' or '-bash: ./run: No such file or directory'"**
-    * You are probably using Linux or MacOS (Bash), so try running `./run.sh source`
+    * You are probably using Linux (Bash), so try running `./run.sh source`
     * It is also possible you are in either the `src` folder or `lib` folder. Run `cd ..` to go back to the right folder
 * "When I try to run, I get the following error: **'./run.sh: line 4: wine: command not found'"**
-    * You are probably using Linux or MacOS and don't have Wine Installed. Wine is required to run easy-masm on non-Windows machines. Be sure to install it by going [here](https://www.winehq.org/)
+    * You are probably using Linux and don't have Wine Installed. Wine is required to run easy-masm on non-Windows machines. Be sure to install it by going [here](https://www.winehq.org/)
 * I can't clone the repository, **"'git' is not recognized as an internal or external command"**
     * You may not have git installed. Either install it [here](https://git-scm.com/downloads) or download the repository as a zip
 * I'm seeing something like **"source.exe not found"** when trying to run
