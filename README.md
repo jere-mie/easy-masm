@@ -30,7 +30,13 @@ INCLUDELIB user32.lib
     * This step may not be required. If you get a permission error when trying to run `run.sh`, then try the above step
 3. Follow the same steps as Windows users with the following exception: when running your program in step 3, instead of running `run source`, type `./run.sh source` (the run.sh file must be used instead of the run.bat file)  
 
-**NOTE**: if you're using the CS Servers, you **MUST** run Easy-MASM on No Machine before running it via SSH
+**NOTE**: if you're using the CS Servers, you **MUST** run Easy-MASM on No Machine before running it via SSH  
+**NOTE**: if you're having issues with wine, try running the following 2 commands (one at a time):
+```sh
+rm -rf ~/.wine
+winecfg
+```
+This should take a while, between 5 and 10 minutes.
 
 ### I Use MacOS, What do I do?
 Unfortunately, since Wine is no longer available on newer versions of MacOS, there is no easy way to get Easy-MASM to work on MacOS. There are two main options to get Easy-MASM running:
