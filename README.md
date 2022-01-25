@@ -1,5 +1,7 @@
 # Easy-MASM
 ## The simplest way to assemble, link, and run masm32 files on Windows or Linux
+![easy-masm](https://user-images.githubusercontent.com/47261508/150897022-f96b097d-8246-435c-8caf-37eb6949b10f.gif)
+
 
 ## Introduction Video
 Check out [this video](https://youtu.be/-pYwO4sTpxI) where I quickly install easy-masm, edit a file, and run it on Windows and Linux (all in under 3 minutes)!
