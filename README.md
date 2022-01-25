@@ -1,10 +1,10 @@
 # Easy-MASM
 ## The simplest way to assemble, link, and run masm32 files on Windows or Linux
 
-### Introduction Video
+## Introduction Video
 Check out [this video](https://youtu.be/-pYwO4sTpxI) where I quickly install easy-masm, edit a file, and run it on Windows and Linux (all in under 3 minutes)!
 
-### Steps For Windows Users
+## Steps For Windows Users
 1. Clone this repo and save to your desired location:
 ```
 git clone https://github.com/jere-mie/easy-masm
@@ -24,7 +24,7 @@ INCLUDELIB user32.lib
 **NOTE**: if you're using PowerShell, type `"./run source"` into PowerShell instead \
 **NOTE**: make sure your terminal isn't in the `src` folder. If you are in the `src` folder, run `cd ..` to go back to the root of the `easy-masm` directory. (Also make sure you aren't in the `lib` folder. Similarly, run `cd ..` to go back in the correct folder).
 
-### For Linux Users
+## For Linux Users
 1. [Install Wine](https://www.winehq.org/) on your computer. (If you're using the CS Servers at UWindsor, Wine is already installed so you can skip this step)
 2. Run `chmod +x run.sh` in the terminal to make "run.sh" executable after you clone the repository (you only need to do this once)
     * This step may not be required. If you get a permission error when trying to run `run.sh`, then try the above step
@@ -38,7 +38,7 @@ winecfg
 ```
 This should take a while, between 5 and 10 minutes.
 
-### I Use MacOS, What do I do?
+## I Use MacOS, What do I do?
 Unfortunately, since Wine is no longer available on newer versions of MacOS, there is no easy way to get Easy-MASM to work on MacOS. There are two main options to get Easy-MASM running:
 1. Using SSH to connect to a remote server, and run Easy-MASM there. If you can connect to a Linux server, then you can use Wine to get Easy-MASM running. 
     - If you're a UWindsor student, you can ssh into the CS servers by running: `ssh UWINID@cs.uwindsor.ca`, replacing `UWINID` with your UWinID.
@@ -47,7 +47,7 @@ Unfortunately, since Wine is no longer available on newer versions of MacOS, the
 2. Create a virtual machine (Windows or Linux) and run Easy-MASM on there.
     - Check out [this tutorial](https://www.youtube.com/watch?v=E27f1VO9ZnA) to learn more.
 
-#### You may be asking yourself, **"If I need to use a virtual machine anyways, why should I use Easy-MASM? Why shouldn't I just use Visual Studio?"**.  
+### You may be asking yourself, **"If I need to use a virtual machine anyways, why should I use Easy-MASM? Why shouldn't I just use Visual Studio?"**.  
 This is a very valid question. The reasons why you should use Easy-MASM in this case are the same reasons why you'd want to use Easy-MASM at all:
 - It is much smaller in size than Visual Studio (~11Mb vs ~20Gb)
 - It is much quicker to set up than Visual Studio (~5min vs ~1hr)
@@ -56,7 +56,7 @@ This is a very valid question. The reasons why you should use Easy-MASM in this 
 
 I understand that MacOS users are especially disadvantaged when trying to get MASM up and running. Unfortunately, I have not found any great way to get it working. If you have any thoughts, insights, or ideas, feel free to [create a new issue](https://github.com/jere-mie/easy-masm/issues/new/choose) on the GitHub repository, [email me](mailto:borna113@uwindsor.ca), or contribute to this project! You can find the GitHub repository to this project here: https://github.com/jere-mie/easy-masm/ .
 
-### FAQ/Common Errors
+## FAQ/Common Errors
 * "When I try to run, I get the following error: **'The term 'run' is not recognized as the name of a cmdlet...'"**
     * You are probably using PowerShell, so try running `./run source`
     * It is also possible you are in either the `src` folder or `lib` folder. Run `cd ..` to go back to the right folder
@@ -77,13 +77,13 @@ I understand that MacOS users are especially disadvantaged when trying to get MA
 * I'm getting an error that isn't described above
     * Reach out to me at borna113@uwindsor.ca and I can do my best to help
 
-### Some Helpful Tips
+## Some Helpful Tips
 * For VSCode users, check out the [MASM Extension](https://marketplace.visualstudio.com/items?itemName=blindtiger.masm) to add syntax highlighting for MASM files
 
-### Contact
+## Contact
 If you have a question, comment, or want to contribute. Feel free to make a pull request or create an issue on this repo. You can also contact me at borna113@uwindsor.ca
 
-### Credits
+## Credits
 This guide could not have been made without direct/indirect help from the following:
 * ASMDude's guide to [installing](https://asmdude.wordpress.com/2019/02/15/how-to-install-masm32-on-windows-10/) and [running](https://asmdude.wordpress.com/2019/02/14/how-to-compile-and-link-masm-on-windows-10/) MASM files
 * [masm32-wine](https://github.com/olivatooo/masm32-wine) for inspiration and some source files
