@@ -21,5 +21,5 @@ Detailed information on Easy-MASM has been moved to [this wiki](https://github.c
 
 ## [Run Easy-MASM in your web browser with Replit](https://github.com/jere-mie/easy-masm/wiki/Replit)
 ## [Instructions for Windows Users](https://github.com/jere-mie/easy-masm/wiki/Windows)
-## [Detailed Instructions for Linux Users](https://github.com/jere-mie/easy-masm/wiki/Linux)
+## [Instructions for Linux Users](https://github.com/jere-mie/easy-masm/wiki/Linux)
 ## [I Use MacOS, What do I do?](https://github.com/jere-mie/easy-masm/wiki/MacOS)
