@@ -1,0 +1,4 @@
+run = "chmod +x run.sh && ./run.sh source"
+
+[nix]
+channel = "stable-21_11"
