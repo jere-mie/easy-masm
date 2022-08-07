@@ -1,6 +1,6 @@
 # Easy-Masm Replit Installation
 
-You can install Easy-Masm on Replit by creating a new "nix" repl, then going to the console or shell of that repl and running the following command:
+You can install Easy-Masm on Replit by creating a new `"Blank Repl"`, then going to the console or shell of that repl and running the following command:
 
 ```bash
 curl -o- https://raw.githubusercontent.com/jere-mie/easy-masm/replit-install/install-replit.sh | bash
@@ -23,3 +23,5 @@ run = "chmod +x run.sh && ./run.sh newFile"
 ```
 
 Where "newFile" corresponds to a "newFile.asm" file in the `src` directory.
+
+*NOTE*: If you can't see the `.replit` file, click the three dots at the top right of the "files" tab and select "show hidden files".
