@@ -17,7 +17,7 @@ Check out [this video](https://youtu.be/-pYwO4sTpxI) where I quickly install Eas
 
 1. Clone this repository
 2. From your terminal, either run the "run.bat" file or "run.sh" file to run `source.asm`
-    * Windows users type `./run source` for Powershell and `run source` for Command Prompt
+    * Windows users type `.\run source`
     * Linux users type `./run.sh source`
 
 ## Wiki
