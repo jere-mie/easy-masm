@@ -1,5 +1,5 @@
 # Easy-MASM
-The simplest way to assemble, link, and run masm32 files on Windows or Linux
+The simplest way to assemble, link, and run masm32 files
 
 ## NEW: [Run Easy-MASM in your browser! No installation required](https://github.com/jere-mie/easy-masm/wiki/Replit)!
 
