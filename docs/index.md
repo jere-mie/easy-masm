@@ -6,8 +6,8 @@ The simplest way to assemble, link, and run masm32 files on Windows or Linux
 
 * [Web Browser (Cross Platform)](codespaces)
   * Thanks to GitHub Codespaces, Easy-MASM is now runnable in your web browser! This is perfect for MacOS users, or anyone who wants to get started with Easy-MASM quickly and easily.
-* [Windows](Windows)
-* [Linux](Linux)
+* [Windows](windows)
+* [Linux](linux)
 * [MacOS](macos)
 
 ## See Easy-MASM in action
