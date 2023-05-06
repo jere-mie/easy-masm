@@ -1,4 +1,4 @@
-# GitHub Codespace
+# GitHub Codespaces
 
 GitHub Codespaces is a way of running Easy-MASM in your browser. Since it runs in your browser, this solution will work on any device, including MacOS devices and Chromebooks It's recommended that you have some familiarity with git and GitHub before using GitHub Codespaces (though you can always use this as an opportunity to learn git and GitHub).
 
