@@ -1,14 +1,8 @@
 # Easy-MASM
+
 The simplest way to assemble, link, and run masm32 files
 
-## NEW: [Run Easy-MASM in your browser! No installation required](https://github.com/jere-mie/easy-masm/wiki/Replit)!
-
-Thanks to Replit, Easy-MASM is now runnable in your web browser! This is perfect for MacOS users, or anyone who wants to get started with Easy-MASM quickly and easily.
-
 ## Instructional Videos
-
-### Run in the Browser
-Check out [this video](https://www.youtube.com/watch?v=x0lxJ2Yd9QM) where I go through the process of installing Easy-MASM on Replit, and running it in the browser.
 
 ### Local Install
 Check out [this video](https://youtu.be/-pYwO4sTpxI) where I quickly install Easy-MASM, edit a file, and run it on Windows and Linux (all in under 3 minutes)!
@@ -20,16 +14,16 @@ Check out [this video](https://youtu.be/-pYwO4sTpxI) where I quickly install Eas
     * Windows users type `.\run source`
     * Linux users type `./run.sh source`
 
-## Wiki
+## Documentation
 
-Detailed information on Easy-MASM has been moved to [this wiki](https://github.com/jere-mie/easy-masm/wiki)
+Detailed information on Easy-MASM has been moved to [this website](https://jere-mie.github.io/easy-masm/)
 
 ### Quick Links:
 
-- [Run Easy-MASM in your web browser with Replit](https://github.com/jere-mie/easy-masm/wiki/Replit)
-- [Instructions for Windows users](https://github.com/jere-mie/easy-masm/wiki/Windows)
-- [Instructions for Linux users](https://github.com/jere-mie/easy-masm/wiki/Linux)
-- [I use MacOS, what do I do?](https://github.com/jere-mie/easy-masm/wiki/MacOS)
+- [Run Easy-MASM in your web browser with GitHub Codespaces](https://jere-mie.github.io/easy-masm/codespaces)
+- [Instructions for Windows users](https://jere-mie.github.io/easy-masm/windows)
+- [Instructions for Linux users](https://jere-mie.github.io/easy-masm/linux)
+- [I use MacOS, what do I do?](https://jere-mie.github.io/easy-masm/macos)
 
 ## See Easy-MASM in Action
 
