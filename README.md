@@ -1,6 +1,6 @@
 # Easy-MASM
 
-The simplest way to assemble, link, and run masm32 files
+The simplest way to assemble, link, and run masm32 files.
 
 ## Instructional Videos
 
@@ -17,6 +17,10 @@ Check out [this video](https://youtu.be/-pYwO4sTpxI) where I quickly install Eas
 ## Documentation
 
 Detailed information on Easy-MASM has been moved to [this website](https://jere-mie.github.io/easy-masm/)
+
+### Irvine32++
+
+Easy-MASM uses [Irvine32++](https://github.com/kilbouri/Irvine32-Plus-Plus), which is a slightly modified version of the original Irvine32 library. It is functionally identical, but allows us to create integrations which power additional features.
 
 ### Quick Links:
 
