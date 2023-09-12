@@ -1,4 +1,6 @@
-# Steps to use Easy-MASM on UWindsor Wifi
+# How to use Easy-MASM on UWindsor Wifi
+
+## GitHub is Blocked on UWindsor Wifi
 
 If you're a student from the University of Windsor who is using Easy-MASM for the COMP-2660 class, you may be wondering why you can't access Easy-MASM's GitHub page on campus. This is because (in their infinite wisdom) the University of Windsor decided to block GitHub on campus wifi.
 
@@ -10,7 +12,7 @@ You can open up a ticket here: [UWindsor ITS support website](https://www.uwinds
 
 ## How to Access Easy-MASM in the Meantime
 
-Luckily, even with GitHub blocked you can still access Easy-MASM easily. You have to main options:
+Luckily, even with GitHub blocked you can still access Easy-MASM easily. You have two main options:
 
 ### Use a VPN
 
@@ -23,14 +25,18 @@ You can use a VPN to bypass the University's GitHub block. While you should alwa
 
 For your convenience, I host a mirror of the Easy-MASM repository on Gitlab, which is not blocked on campus wifi. Whenever you see a command like:
 
-```
+```sh
 git clone https://github.com/jere-mie/easy-masm
 ```
 
-Simply replace `github` with `gitlab`, and you should be able to access the repository.
+Simply replace `github` with `gitlab`, and you should be able to access the repository. So, the new command would be:
 
-Check out the Easy-MASM Gitlab page here: https://gitlab.com/jere-mie/easy-masm
+```sh
+git clone https://gitlab.com/jere-mie/easy-masm
+```
+
+Check out the Easy-MASM Gitlab page here: [https://gitlab.com/jere-mie/easy-masm](https://gitlab.com/jere-mie/easy-masm)
 
 ## Contact Me
 
-If you have any other issues with Easy-MASM, please feel free to contact me at borna113@uwindsor.ca
+If you have any other issues with Easy-MASM, please feel free to contact me at [borna113@uwindsor.ca](mailto:borna113@uwindsor.ca)
