@@ -1,8 +1,6 @@
 # Easy-MASM
 
-The simplest way to assemble, link, and run masm32 files on Windows or Linux
-
-**NEW: [Instructions for UWindsor students](uwindsor)** 
+The simplest way to assemble, link, and run masm32 files on Windows, Linux, and MacOS
 
 ## Instructions For Your System
 

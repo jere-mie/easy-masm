@@ -23,7 +23,7 @@ Detailed information on Easy-MASM has been moved to [this website](https://jere-
 - [Run Easy-MASM in your web browser with GitHub Codespaces](https://jere-mie.github.io/easy-masm/codespaces)
 - [Instructions for Windows users](https://jere-mie.github.io/easy-masm/windows)
 - [Instructions for Linux users](https://jere-mie.github.io/easy-masm/linux)
-- [I use MacOS, what do I do?](https://jere-mie.github.io/easy-masm/macos)
+- [Instructions for MacOS users](https://jere-mie.github.io/easy-masm/macos)
 
 ## See Easy-MASM in Action
 

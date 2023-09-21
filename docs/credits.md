@@ -7,4 +7,5 @@ Easy-MASM would not have been possible without the direct/indirect help from the
 * GitHub user [bachittle](https://github.com/bachittle) for figuring out how to run this on Wine
 * GitHub user [WahidBawa](https://github.com/WahidBawa) for providing me with some of these resources
 * GitHub user [farooqiusman](https://github.com/farooqiusman) for helping me with common Wine issues
+* GitHub user [kilbouri](https://github.com/kilbouri) for creating [Irvine32-Plus-Plus](https://github.com/kilbouri/Irvine32-Plus-Plus), a patched version of [Irvine's MASM library](http://www.asmirvine.com/) that allows for output and input redirection
 * Anyone else who Stars, Forks, or contributes to this in the future :)
