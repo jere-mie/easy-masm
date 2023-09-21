@@ -1,9 +1,4 @@
-# Use Alpine Linux as the base image
-FROM alpine:latest
-
-# Update package repositories and install Wine
-RUN apk update && \
-    apk add wine
+FROM tianon/wine:latest
 
 # Create a directory to copy your files into
 RUN mkdir -p /easy-masm
