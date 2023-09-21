@@ -1,6 +1,6 @@
 ## MacOS
 
-MacOS users are particularly disadvantaged when trying to run MASM programs because neithr Visual Studio nor Wine will work natively on it.
+MacOS users are particularly disadvantaged when trying to run MASM programs because neither Visual Studio nor Wine will work natively on it.
 
 However, thanks to Docker, it is now possible to run Easy-MASM on MacOS.
 
