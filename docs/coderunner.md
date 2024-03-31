@@ -1,4 +1,4 @@
-## Code Runner Support (currently linux only)
+## Code Runner Support (currently Linux and MacOS only)
 Tired of typing the same command again and again. Code Runner gives one click execute support for better accessibility, make sure you have the [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner) extenstion installed. Then follow the steps given below.
 
 **Note:** You can only run this in easy-masm folder, it will not work dynamically work everywhere. 
@@ -15,7 +15,7 @@ then goto goto the following file "Executer Map by File Extension"
    ![image](https://github.com/thehamzaihsan/easy-masm-pr/assets/85873694/cbe0c933-ecdf-464b-b0cd-7e4f03de6fa7)
 then add the following lines here. 
 
- Linux only: ``` ".asm" : "sh run.sh $fileNameWithoutExt $dir" ```
+ Linux & MacOS only: ``` ".asm" : "sh run.sh $fileNameWithoutExt $dir" ```
 
    ![image](https://github.com/thehamzaihsan/easy-masm-pr/assets/85873694/001c7c7b-e9e3-42b6-9131-1b5c85d7648b)
 
