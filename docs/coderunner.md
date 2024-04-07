@@ -1,4 +1,4 @@
-## Code Runner Support (currently Linux and MacOS only)
+## Code Runner Support 
 Tired of typing the same command again and again. Code Runner gives one click execute support for better accessibility, make sure you have the [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner) extenstion installed. Then follow the steps given below.
 
 **Note:** You can only run this in easy-masm folder, it will not work dynamically work everywhere. 
@@ -8,18 +8,22 @@ Tired of typing the same command again and again. Code Runner gives one click ex
 ### 1. Change Extension Settings
 Click on extension settings of the code runner extension.
 
-  ![image](https://github.com/thehamzaihsan/easy-masm-pr/assets/85873694/c60c565e-76e1-402b-bc98-4395380f2ae2)
+  ![image](./images/coderunner1.png)
 
 then goto goto the following file "Executer Map by File Extension"
 
-   ![image](https://github.com/thehamzaihsan/easy-masm-pr/assets/85873694/cbe0c933-ecdf-464b-b0cd-7e4f03de6fa7)
+   ![image](./images/coderunner2.png)
 then add the following lines here. 
 
- Linux & MacOS only: ``` ".asm" : "sh run.sh $fileNameWithoutExt $dir" ```
+Linux & MacOS: ``` ".asm" : "sh run.sh $fileNameWithoutExt $dir" ```
 
-   ![image](https://github.com/thehamzaihsan/easy-masm-pr/assets/85873694/001c7c7b-e9e3-42b6-9131-1b5c85d7648b)
+Windows: ```".asm" : "./run.bat $fileNameWithoutExt $dir"```
 
-### 2. You can then change your ```run.sh``` to the following:
+   ![image](./images/coderunner3.png)
+
+### 2. You can then change your ```run.sh``` or  ```run.bat``` to the following:
+
+Linux and MacOS
  ``` 
 #!/bin/sh
 cp "$2$1.asm" lib 
@@ -32,6 +36,20 @@ rm $1.obj
 rm $1.asm 
 cd ..
  ``` 
+
+ Windows
+ ``` 
+ copy %2\%1.asm lib\ && ^
+cd lib && ^
+aml.exe /c /Zd /coff %1.asm && ^
+alink.exe /SUBSYSTEM:CONSOLE %1.obj && ^
+%1.exe && ^
+del %1.exe && ^
+del %1.obj && ^
+del %1.asm && ^
+cd ..
+  ```
 It should work now!!!!
 
-#### 3. (Optional) You can also make a newfile called ```coderunner.sh``` and put your the above code there & put the ``` ".asm" : "sh coderunner.sh $fileNameWithoutExt $dir" ``` in the code runner settings.
+### 3. (Optional) 
+You can also make a newfile called ```coderunner.sh``` and put your the above code there & put the Linux/MacOS: ``` ".asm" : "sh coderunner.sh $fileNameWithoutExt $dir"``` or WIndows: ```".asm" : "./run.bat $fileNameWithoutExt $dir"```in the code runner settings.
