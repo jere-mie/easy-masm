@@ -2,10 +2,9 @@
 
 The simplest way to assemble, link, and run masm32 files
 
-## Instructional Videos
+## Instructional Video
 
-### Local Install
-Check out [this video](https://youtu.be/-pYwO4sTpxI) where I quickly install Easy-MASM, edit a file, and run it on Windows and Linux (all in under 3 minutes)!
+Check out [this video](https://www.youtube.com/watch?v=kKPlhuUtF1k) to learn more about using Easy-MASM both locally and online via GitHub Codespaces.
 
 ## Basic Steps for Local Installation
 
