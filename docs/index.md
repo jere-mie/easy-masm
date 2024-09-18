@@ -2,6 +2,14 @@
 
 The simplest way to assemble, link, and run masm32 files on Windows, Linux, and MacOS
 
+## Instructional Video
+
+Check out [this video](https://www.youtube.com/watch?v=kKPlhuUtF1k) to learn more about using Easy-MASM both locally and online via GitHub Codespaces.
+
+## GitHub Repository
+
+Check out Easy-MASM's GitHub repository [here](https://github.com/jere-mie/easy-masm).
+
 ## Instructions For Your System
 
 * [Web Browser (Cross Platform)](codespaces)
@@ -23,5 +31,4 @@ The simplest way to assemble, link, and run masm32 files on Windows, Linux, and 
 - [MacOS](macos)
 - [Troubleshooting](troubleshooting)
 - [Tips](tips)
-- [Instructions for UWindsor Students](uwindsor)
 - [Credits](credits)
