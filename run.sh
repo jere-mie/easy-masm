@@ -1,4 +1,5 @@
 #!/bin/sh
+export WINEDEBUG=-all
 cp src/$1.asm lib 
 cd lib 
 wine aml.exe /c /Zd /coff $1.asm 
