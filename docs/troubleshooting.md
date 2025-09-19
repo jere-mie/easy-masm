@@ -1,5 +1,11 @@
 ## FAQ/Common Errors
 
+### On Windows Git Bash, `./run` fails: `bash: .run: command not found`
+
+* In Git Bash you must call the batch file explicitly: `./run.bat source` (include the `.bat` extension). Using `./run` without the extension won’t be found by Bash.
+
+---
+
 ### "When I try to run, I get the following error: **'-bash: run: command not found' or '-bash: ./run: No such file or directory'"** 
 
 * You are probably using Linux (Bash), so try running `./run.sh source`
